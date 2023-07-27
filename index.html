@@ -24,8 +24,8 @@
 
 <body class="lato">
   <!-- header section start here -->
-  <header class="max-h-screen  sm:p-5 lg:pt-12 ">
-    <nav class=" md:bg-[#F85559] rounded-[600px] lg:shadow max-w-screen-xl px-3 lg:mx-28 lg:py-4 md:mx-14 ">
+  <header class="max-h-screen  h-auto sm:p-5 overflow-hidden  ">
+    <nav class=" md:bg-[#F85559] h-auto rounded-[600px] lg:shadow max-w-screen-xl px-3 lg:mx-28 lg:py-4 md:mx-14 ">
       <div class="container px:6 md:px-6 lg:px-0 py-3 mx-auto ">
         <div class="flex justify-between md:flex-row md:items-center">
           <div
@@ -73,18 +73,16 @@
               </svg>
             </button>
           </div>
-
-
         </div>
       </div>
     </nav>
 
     <!-- banner slider section -->
-    <section class="max-w-screen-xl mx-auto px-3 md:px-16 lg:px-24 py-5 my-5">
+    <section class="max-w-screen-xl h-auto   mx-auto px-3 md:px-16 lg:px-24 py-5  ">
       <!-- carousel -->
-      <div class="carousel w-full rounded-lg">
+      <div class=" z-10 carousel w-full rounded-lg  ">
         <!-- slide 1 -->
-        <div id="slide1" class="carousel-item relative w-full">
+        <div id="slide1" class="carousel-item relative w-full  ">
           <img src="images/banner1.png" alt="Fruits" class="w-full brightness-50" />
           <div
             class="w-[220px] h-20 md:w-[450px] md:h-[220px] lg:w-[641px] lg:h-[316px] flex flex-col justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
@@ -93,8 +91,8 @@
             <button class="px-3 md:px-6 border-0 rounded-md py-1 md:py-3 bg-[#F85559]">Shop Now</button>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
+            <a href="#slide4" class="btn btn-circle bg-transparent text-white border-0">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-transparent text-white border-0">❯</a>
           </div>
         </div>
         <!-- slide 2 -->
@@ -107,8 +105,8 @@
             <button class="px-3 md:px-6 border-0 rounded-md py-1 md:py-3 bg-[#F85559]">Shop Now</button>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
+            <a href="#slide1" class="btn btn-circle bg-transparent text-white border-0">❮</a>
+            <a href="#slide3" class="btn btn-circle bg-transparent text-white border-0">❯</a>
           </div>
         </div>
         <!-- slide 3 -->
@@ -121,8 +119,8 @@
             <button class="px-3 md:px-6 border-0 rounded-md py-1 md:py-3 bg-[#F85559]">Shop Now</button>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide4" class="btn btn-circle">❯</a>
+            <a href="#slide2" class="btn btn-circle bg-transparent text-white border-0">❮</a>
+            <a href="#slide4" class="btn btn-circle bg-transparent text-white border-0">❯</a>
           </div>
         </div>
         <!-- slide 4 -->
@@ -135,8 +133,45 @@
             <button class="px-3 md:px-6 border-0 rounded-md py-1 md:py-3 bg-[#F85559]">Shop Now</button>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+            <a href="#slide3" class="btn btn-circle bg-transparent text-white border-0">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-transparent text-white border-0">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="hidden md:block relative md:w-10/12 lg:max-w-4xl mx-auto  bg-white z-20 transform lg:-translate-y-2/4 md:-translate-y-1/4  lg:py-5 m-0">
+        <div class="flex justify-around items-center">
+          <div>
+            <figure class="text-center">
+              <img src="images/fruit1.png" alt="">
+              <figcaption class="font-medium md:text-base lg:text-lg text-[#121212CC]">Strawberry</figcaption>
+            </figure>
+          </div>
+          <div>
+            <figure class="text-center">
+              <img src="images/fruit2.png" alt="">
+              <figcaption class="font-medium md:text-base lg:text-lg text-[#121212CC]">Strawberry</figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <figure class="text-center">
+              <img src="images/fruit3.png" alt="">
+              <figcaption class="font-medium md:text-base lg:text-lg text-[#121212CC]">Mango</figcaption>
+            </figure>
+          </div>
+          <div>
+            <figure class="text-center">
+              <img src="images/fruit4.png" alt="">
+              <figcaption class="font-medium md:text-base lg:text-lg text-[#121212CC]">Strawberry</figcaption>
+            </figure>
+          </div>
+          <div>
+            <figure class="text-center">
+              <img src="images/fruit5.png" alt="">
+              <figcaption class="font-medium md:text-base lg:text-lg text-[#121212CC]">Mango</figcaption>
+            </figure>
           </div>
         </div>
       </div>
