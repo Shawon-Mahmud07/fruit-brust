@@ -353,9 +353,11 @@
     </section>
 
     <!-- Meet the team section section -->
-    <section class="text-gray-600  max-w-screen-xl h-auto  mx-auto px-5 md:px-16 lg:px-24 my-5 lg:py-24 lg:my-10 ">
-      <div class="container px-5 pt-8 lg:pt-16 mx-auto bg-center bg-no-repeat bg-cover"
-        style="background-image: url(images/team.png);">
+    <section class="  max-w-screen-xl h-auto  mx-auto px-5 md:px-16 lg:px-24 my-5 lg:py-24 lg:my-10 relative ">
+      <div class="absolute inset-0 bg-center bg-no-repeat bg-cover z-0" style="background-image: url(images/team.png);">
+      </div>
+      <div class="absolute inset-0 bg-gray-900 opacity-40 z-10"></div>
+      <div class="container px-5 pt-8 lg:pt-16 mx-auto relative z-20 ">
         <div class="flex flex-col text-center w-full mb-10">
           <h1 class="text-4xl font-extrabold mb-4 text-white">Meet the team section</h1>
           <p class="lg:w-2/3 text-white mx-auto leading-relaxed text-base font-medium">Contrary to popular belief, is
