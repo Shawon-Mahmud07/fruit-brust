@@ -24,13 +24,13 @@
 
 <body class="lato ">
   <!-- header section start here -->
-  <header class="lg:h-screen  sm:p-5 lg:mb-10  ">
+  <header class=" container mx-auto lg:pt-4 ">
     <nav
-      class=" md:bg-[#F85559] rounded-[600px] lg:shadow max-w-screen-xl pt-5 md:pt-0 px-3 lg:mx-28 lg:py-4 md:mx-14 ">
-      <div class="container px:6 md:px-6 lg:px-0 py-3 mx-auto ">
+      class=" md:bg-[#F85559] rounded-[600px]  lg:shadow container mx-auto pt-5 md:pt-0 px-3  lg:py-4  ">
+      <div class=" px:6 md:px-6 lg:px-0 py-3  ">
         <div class="flex justify-between md:flex-row md:items-center">
           <div
-            class=" hidden md:mt-0 md:p-0 md:top-0   md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center">
+            class=" hidden md:mt-0 md:p-0 md:top-0  md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center">
             <div class="flex md:flex-row lg:mx-1 text-white">
               <a class="my-2 text-sm lg:text-sm leading-5 hover:underline md:mr-3  lg:mx-4 md:my-0" href="#">Home</a>
               <a class="my-2 text-sm lg:text-sm leading-5 hover:underline md:mr-3 lg:mx-4 md:my-0" href="#">About
@@ -40,7 +40,7 @@
             </div>
           </div>
 
-          <div class=" flex items-center gap-2">
+          <div class="  flex items-center gap-2">
             <img class="lg:w-8 lg:h-10 h-7 " src="images/logo.png" alt="">
             <span
               class="text-[#121212] md:text-white md:font-medium font-extrabold text-lg md:text-base lg:text-4xl">Fruit
@@ -80,11 +80,11 @@
     </nav>
 
     <!-- banner slider section -->
-    <section class="max-w-screen-xl   mx-auto px-3 md:px-16 lg:px-24 py-5 ">
+    <section class="container  mx-auto px-3  pt-5 ">
       <!-- carousel -->
       <div class=" carousel w-full rounded-lg  ">
         <!-- slide 1 -->
-        <div id="slide1" class="carousel-item relative w-full  ">
+        <div id="slide1" class=" carousel-item relative w-full  ">
           <img src="images/banner1.png" alt="Fruits" class="w-full brightness-50" />
           <div
             class="w-[220px] h-20 md:w-[450px] md:h-[220px] lg:w-[641px] lg:h-[316px] flex flex-col justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
@@ -141,7 +141,7 @@
         </div>
       </div>
       <div
-        class="hidden rounded-lg md:block relative md:w-10/12 lg:max-w-4xl mx-auto  bg-white z-20 transform lg:-translate-y-2/4 md:-translate-y-1/4  lg:py-5 m-0">
+        class="hidden shadow-sm rounded-lg md:block relative md:w-10/12 lg:max-w-4xl mx-auto  bg-white z-20 transform lg:-translate-y-2/4 md:-translate-y-1/4  lg:py-5 m-0">
         <div class="flex justify-around items-center">
           <div>
             <figure class="text-center">
@@ -186,7 +186,7 @@
   <!-- main section start here -->
   <main>
     <!-- Deal of the day section -->
-    <section class="max-w-screen-xl h-auto  mx-auto px-3 md:px-16 lg:px-24 pt-5 lg:my-10 ">
+    <section class="container h-auto mb-14 lg:mb-24 mx-auto px-3 md:px-16 pt-5 lg:pt-0  ">
       <div class="flex flex-col lg:flex-row justify-between items-center gap-4 lg:gap-40 px-3 lg:px-0   py-5">
         <div class="flex-1 px-6 lg:px-0 text-center lg:text-left space-y-3">
           <h2 class=" text-[#121212] font-extrabold text-2xl md:text-4xl">Deal of the day</h2>
@@ -227,9 +227,9 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   gap-4   mt-5">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4   gap-4  mt-5">
 
-        <div class="w-11/12 mx-auto lg:w-64   bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
+        <div class="w-11/12 mx-auto  bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
           <figure class="p-5 flex justify-center">
             <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -259,7 +259,7 @@
           </div>
         </div>
 
-        <div class="w-11/12 mx-auto lg:w-64 bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
+        <div class="w-11/12 mx-auto  bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
           <figure class="p-5 flex justify-center">
             <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -288,7 +288,7 @@
             <button class="text-[#F85559] font-semibold" onclick="my_modal_2.showModal()">Details</button>
           </div>
         </div>
-        <div class="w-11/12 mx-auto lg:w-64 bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
+        <div class="w-11/12 mx-auto  bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
           <figure class="p-5 flex justify-center">
             <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -317,7 +317,7 @@
             <button class="text-[#F85559] font-semibold" onclick="my_modal_3.showModal()">Details</button>
           </div>
         </div>
-        <div class="w-11/12 mx-auto lg:w-64 bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
+        <div class="w-11/12 mx-auto  bg-base-100 shadow-xl border-1 border-solid border-[#12121219]">
           <figure class="p-5 flex justify-center">
             <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
           </figure>
@@ -347,7 +347,7 @@
           </div>
         </div>
       </div>
-      <div class="text-center mt-5">
+      <div class="text-center mt-5 lg:mt-10">
         <button
           class="text-base md:text-lg text-[#FFFFFF] py-2 px-5  md:py-3 rounded-md md:rounded-lg md:px-7 bg-[#F85559]">Shop
           all</button>
@@ -356,7 +356,7 @@
 
     <!-- Meet the team section section -->
     <section
-      class=" max-w-screen-xl h-auto mx-6 md:mx-20 lg:mx-32 md:px-16 lg:px-24 my-5 lg:py-10 px-5 lg:my-10 relative ">
+      class=" max-w-screen-xl h-auto  lg:mb-24 mx-auto md:px-16 lg:px-24 my-5 lg:py-10 px-5 lg:my-10 relative ">
       <div class="absolute inset-0 bg- md:bg-center bg-no-repeat bg-cover z-0"
         style="background-image: url(images/team.png);">
       </div>
